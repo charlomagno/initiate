@@ -1,0 +1,52 @@
+/*
+    
+    Kindling Core
+	An Open-Ended Starting Point
+
+*/
+
+* {
+	margin:0;
+	padding:0;
+	position:relative;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	font:300 125%/150% sans-serif;
+}
+a:active,a:hover,a:focus {
+	outline:0;
+}
+h1,h2,h3,h4,h5,h6 {
+	line-height:140%;
+	font-weight:300;
+	margin:0 0 2rem;
+}
+h1 {
+	font-size:300%;
+}
+h2 {
+	font-size:250%;
+}
+h3 {
+	font-size:200%;
+}
+h4 {
+	font-size:125%;
+}
+h5 {
+	font-size:100%;
+}
+h6 {
+	font-size:80%;
+}
+p {
+	margin-bottom:2rem;
+}
+button,input,select,textarea {
+	font:300 125%/150% sans-serif;
+}
+@media only screen and (max-width: 600px) {
+}
