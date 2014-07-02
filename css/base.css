@@ -13,6 +13,13 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
+.cf:before,.cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
 body {
 	font:300 125%/150% sans-serif;
 }
