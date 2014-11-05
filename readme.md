@@ -1,6 +1,6 @@
 # Kindling (Core)
 
-An open-ended starting point.
+A fairly open-ended starting point.
 
 ## Licensing
 
