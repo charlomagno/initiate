@@ -16,10 +16,12 @@
 	clear: both;
 }
 body {
-	font:300 125%/150% sans-serif;
+	font:300 16px/1.5 sans-serif;
+	letter-spacing: 0.01rem;
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
+	text-rendering: optimizeLegibility;
 }
 a {
 	transition:0.2s all ease-in-out;
@@ -27,18 +29,18 @@ a {
 	outline:0;
 }
 h1,h2,h3,h4,h5,h6,p {
-	line-height:140%;
+	line-height:1.5;
 	font-weight:300;
 	margin:0 0 2rem;
 }
-h1 { font-size:300%; }
-h2 { font-size:250%; }
-h3 { font-size:200%; }
+h1 { font-size:250%; }
+h2 { font-size:200%; }
+h3 { font-size:175%; }
 h4 { font-size:125%; }
 h5 { font-size:100%; }
 h6 { font-size:80%; }
 button,input,select,textarea {
-	font:300 125%/150% sans-serif;
+	font:300 16px/1.5 sans-serif;
 }
 
 /* Kindling Grid */
