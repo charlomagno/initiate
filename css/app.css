@@ -22,13 +22,17 @@ body {
 	text-rendering: optimizeLegibility;
 }
 a {
-	transition:0.2s all ease-in-out;
 	-webkit-transition:0.2s all ease-in-out;
+	transition:0.2s all ease-in-out;
 	outline:0;
 }
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6 {
 	line-height:1.5;
 	font-weight:300;
+	margin:0 0 2rem;
+}
+p {
+	line-height:1.5;
 	margin:0 0 2rem;
 }
 h1 { font-size:250%; }
